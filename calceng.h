@@ -16,8 +16,8 @@ double volumeCilindro(double raio , double altura);
 
 double metrosCentimetros(double metros);
 double centimetrosMetros(double centimetros);
-double centimetrosMM(double centimetros);
-double mmCentimetros(double milimetros);
+double metrosMilimetros(double metros);
+double milimetrosMetros(double milimetros);
 
 //FUNÇÕES ESTIMATIVA DE MATERIAIS
 
