@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<math.h>
 
-//--------AREA--------
+//--------AREA--------//
 
 double areaRetangulo(double base , double altura){
     if(base <= 0 || altura <= 0){
@@ -48,7 +48,7 @@ double volumeCilindro(double raio , double altura){
 
  }
 
-//--------CONVERSÃO DE VALORES--------
+//--------CONVERSÃO DE VALORES--------//
 
 double metrosCentimetros(double metros){
     if(metros <= 0){
@@ -82,12 +82,31 @@ double milimetrosMetros(double milimetros){
     return milimetros / 1000;
 }
 
-//-------- ESTIMATIVA DE MATERIAIS--------
+//-------- ESTIMATIVA DE MATERIAIS--------//
 double quantidadeTijolo(double areaParede , double areaTijolo){
     if(areaParede <= 0 || areaTijolo <= 0){
-        printf("ERRO : AREA INVALIDA");
-        return 0;
+        printf("ERRO : AREA INVALIDA\n");
+        return -1;
     }
     return (int) ceil(areaParede / areaTijolo);
 }
+
+double quantidadedeCimento(double areaParede){
+    if(areaParede <= 0){
+        printf("ERRO : AREA INVALIDA\n");
+        return -1;
+    }
+
+    return areaParede * 5.0;  // COLOQUEI 5 COMO UMA ESTIMATIVA DE 5KG POR m².
+}
+
+//-------- ESTIMATIVA DE PESO--------//
+    double pesoViga(double volume , double densidade){
+        if(volume <= 0 || densidade <=0){
+            printf("ERRO : VALORES INVALIDOS");
+            return -1;
+        }
+        return volume * densidade; 
+    }
+
 
