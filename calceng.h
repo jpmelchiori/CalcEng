@@ -1,5 +1,5 @@
 #ifndef CALCENG_H
-#define CALENG_H
+#define CALCENG_H
 
 //FUNÇÕES DE ÁREA
 
@@ -21,7 +21,7 @@ double milimetrosMetros(double milimetros);
 
 //FUNÇÕES ESTIMATIVA DE MATERIAIS
 
-double quantidadeTijolo(double areaParede , double areaTijolo);
+int quantidadeTijolo(double areaParede , double areaTijolo);
 double quantidadeCimento(double areaParede);
 
 //FUNÇÕES CÁLCULO DE PESO ESTIMADO

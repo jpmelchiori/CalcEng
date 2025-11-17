@@ -83,7 +83,7 @@ double milimetrosMetros(double milimetros){
 }
 
 //-------- ESTIMATIVA DE MATERIAIS--------//
-double quantidadeTijolo(double areaParede , double areaTijolo){
+int quantidadeTijolo(double areaParede , double areaTijolo){
     if(areaParede <= 0 || areaTijolo <= 0){
         printf("ERRO : AREA INVALIDA\n");
         return -1;
