@@ -1,5 +1,4 @@
 
-
 #include "calceng.h"
 #include<stdio.h>
 
@@ -70,7 +69,7 @@ int main(){
             resultado = volumeCilindro(raio , altura);
         
             printf("Volume do cilindro : %.2lf m^3\n" , resultado);
-            break; // <-- ESTE É O BREAK QUE FALTAVA
+            break; 
 
         
         case 6:{
@@ -139,8 +138,22 @@ int main(){
             break;
         }
 
-        case 8:
-        
+        case 8: {
+            double volume , densidade;
+            double peso;
+
+            printf("Informe o volume da viga (m3) : ");
+            scanf("%lf" , &volume);
+            printf("Informe a densidade : ");
+            scanf("%lf" , &densidade);
+
+            peso = pesoViga(volume , densidade);
+
+            printf("Peso estimado da viga : %.2lf kg\n" , peso);
+
+            break;
+        }
+            
     } 
 
     }while(opcao != 0);
