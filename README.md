@@ -1,5 +1,5 @@
-# CalculadoraEng 📐e = ∑∞ⁿ⁼⁰ ¹ₙ🤓
-Calculadora para engenheiros - Faculdade
+# CalculadoraEng 
+Calculadora para engenheiros e arquitetos- Faculdade
 
 INSTRUÇÕES PARA COMPILAR :
 1. gcc main.c calceng.c -o calculadora -lm
