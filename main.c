@@ -10,20 +10,26 @@ int main(){
 
     do{
         
-        printf("\n========================\n");
-        printf("CALCULADORA ENGENHARIA\n");
-        printf("========================\n");
+        printf("\n==========================================\n");
+        printf("        CALCULADORA ENGENHARIA\n");
+        printf("==========================================\n");
         printf("1 - CALCULAR AREA RETANGULO\n");
         printf("2 - CALCULAR AREA DO TRIANGULO\n");
         printf("3 - CALCULAR AREA DO CIRCULO\n");
         printf("4 - CALCULAR VOLUME DO PRISMA\n"); 
         printf("5 - CALCULAR VOLUME DO CILINDRO\n");
+
+        
+        printf("==========================================\n");
         printf("6 - CONVERTER UNIDADES(M/CM/MM)\n");
         printf("7 - ESTIMAR QUANTIDADE DE TIJOLOS\n");
         printf("8 - CALCULAR PESO ESTIMADO DA VIGA\n");
-        printf("0 - SAIR\n");
-        printf("========================\n");
-        printf("Escolha uma opcao : ");
+
+        printf("\n==========================================\n");
+        printf(" 0 - SAIR\n");
+        printf("==========================================\n");
+
+        printf("\nEscolha uma opcao : ");
         scanf("%d" , &opcao);
 
     switch(opcao){

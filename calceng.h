@@ -22,7 +22,7 @@ double milimetrosMetros(double milimetros);
 //FUNÇÕES ESTIMATIVA DE MATERIAIS
 
 int quantidadeTijolo(double areaParede , double areaTijolo);
-double quantidadeCimento(double areaParede);
+
 
 //FUNÇÕES CÁLCULO DE PESO ESTIMADO
 
