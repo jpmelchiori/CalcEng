@@ -4,6 +4,7 @@ O sistema utiliza uma biblioteca própria implementada em C, tornando o código 
 
 Projeto desenvolvido por :   
 João Pedro Melchiori - 845677
+
 Pedro Henrique Marques Cintra - 846221
 
 # Estrutura do Projeto
