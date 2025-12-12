@@ -2,7 +2,14 @@
 Projeto desenvolvido para a disciplina de Laboratório de Técnicas de Programação, com o objetivo de auxiliar arquitetos e engenheiros no cálculo de áreas, volumes, conversões e estimativas de materiais usados em obras.
 O sistema utiliza uma biblioteca própria implementada em C, tornando o código modular, limpo e reaproveitável.
 
+<<<<<<< HEAD
 Projeto desenvolvido por  : João Pedro Melchiori - 845677 e Pedro Henrique Marques Cintra - 846221
+=======
+Projeto desenvolvido por :   
+João Pedro Melchiori - 845677
+
+Pedro Henrique Marques Cintra - 846221
+>>>>>>> d44771a7991ec1b70e2c70661c2db6101156eb42
 
 # Estrutura do Projeto
     calceng.h:
