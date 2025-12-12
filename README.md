@@ -9,7 +9,7 @@ Projeto desenvolvido por :
 João Pedro Melchiori - 845677
 
 Pedro Henrique Marques Cintra - 846221
->>>>>>> d44771a7991ec1b70e2c70661c2db6101156eb42
+
 
 # Estrutura do Projeto
     calceng.h:
